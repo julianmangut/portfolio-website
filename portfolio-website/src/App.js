@@ -4,13 +4,15 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
 import Header from './header/Header'
+import Content from './content/Content'
 
 function App() {
   return (
     <Container fluid>
       <Row>
-        <Header />
+       <Header />
       </Row>
+      <Content />
     </Container>
   );
 }
