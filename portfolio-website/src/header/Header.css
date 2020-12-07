@@ -1,0 +1,15 @@
+#principal-img {
+    position: relative;
+}
+
+#profile-img {
+    width: 100%;
+}
+
+#principal-text {
+    position: absolute; 
+    top: calc(40% - 2rem);
+    left: 0;
+    text-align: center; 
+    width: 100%; 
+}
