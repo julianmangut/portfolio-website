@@ -4,15 +4,21 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
 import Header from './header/Header'
-import Content from './content/Content'
+import Universities from './content/universities/Universities'
+import About_me from './content/about_me/About_me'
 
 function App() {
   return (
     <Container fluid>
       <Row>
-       <Header />
+        <Header />
       </Row>
-      <Content />
+      <Row>
+        <About_me />
+      </Row>
+      <br />
+      <br />
+      <Universities />  
     </Container>
   );
 }

@@ -1,24 +1,25 @@
-#universities-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    width: 100%;
+#university-logo {
+    width: 20rem;
 }
 
 #university-card {
     position: relative;
     height: 100%;
     overflow-y: hidden;
-    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem 0.2rem 0.5rem rgba(56, 52, 45, 0.65), 0rem -0.2rem 0.5rem rgba(56, 52, 45, 0.65), 0.2rem 0rem 0.5rem rgba(56, 52, 45, 0.65) ;
     margin: 1em;
+    width: 20rem;
+    font-size: medium;
 }
 
 #university-card h4 {
     margin: 0;
     display: block;
-    background-color: turquoise;
+    background-color: #A6967C;
     padding: 1rem;
+    color: #F2EEE6;
+    font-size: large;
+    font-weight: bold;
 }
 
 #university-card a {
@@ -43,17 +44,13 @@
 	width: 100%;
 	top: 0;
 	transition: transform 300ms;
-	transform: translate3d(0, calc(100% - 3.5rem), 0); /* This gave us the possibility of seen at least the main word */
+	transform: translate3d(0, calc(100% - 3.3rem), 0); /* This gave us the possibility of seen at least the main word */
 }
 
 #university-body {
-    background-color: turquoise;
+    background-color: #A6967C;
     filter: brightness(85%);
     flex-grow: 1;
     padding: 1rem;
-}
-
-#university-body p{
-    margin: 0;
 }
 

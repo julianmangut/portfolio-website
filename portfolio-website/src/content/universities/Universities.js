@@ -1,23 +1,20 @@
+import './Universities.css'
+
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import University from '../university/University'
 
-import University from './university/University'
+function Universities() {
 
-function Content() {
     return (
         <Row>
-
+            <h2 id="education-text">Education</h2>
             <div id="universities-container">
-
                 <University />
-
                 <University />
-
             </div>
-
         </Row>
-
     )
+
 }
 
-export default Content;
+export default Universities;

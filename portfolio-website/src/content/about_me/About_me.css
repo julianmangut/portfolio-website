@@ -1,0 +1,36 @@
+#container-about {
+    width: 100%;
+    justify-content: center;
+}
+
+#about-me-info {
+    border-radius: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+    background-color: #252627;
+    color: #F2EEE6;
+    padding: 1rem;
+    top: -3.8rem;
+}
+
+#about-me-text {
+    margin-left: 5%;
+    color: #424242ea;
+    text-shadow: 1.4px 0 black, -0.4px 0 black;
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .07;
+}
+
+@media only screen and (max-width: 576px) {
+    #about-me-text {
+      font-size: 5rem;
+    }
+
+    #about-me-info {
+        top: -2rem;
+    }
+  }
